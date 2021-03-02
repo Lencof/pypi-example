@@ -19,12 +19,13 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-import os
-import tempfile
+
+import os # use os
+import tempfile # use tempfile
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
-import requests
+import requests # use requests
 
 
 def get_values(file_name):
@@ -89,4 +90,5 @@ ax.xaxis.set_major_formatter(ticker.FixedFormatter(labels))
 ax.set_rticks([])
 
 if __name__ == '__main__':
-    plt.show()
+    plt.show() # close
+    
