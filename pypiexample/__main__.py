@@ -43,7 +43,6 @@ def get_values(file_name):
         finally:
             os.close(fd)
 
-
 labels = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'G', 'K', 'L']
 red = '#FFE9E9'
 yellow = '#FFFFED'
